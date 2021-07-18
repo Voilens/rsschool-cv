@@ -17,6 +17,7 @@ body {
 .header .container {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
   background: #2C2C2C;
 }
@@ -110,6 +111,14 @@ h2 {
   height: 1px;
   padding: 0 20px;
   background: #540cdb;
+}
+
+.content--skills .title--hr {
+  width: 60%;
+}
+
+.content--project .title--hr {
+  width: 40%;
 }
 
 .content--text {
