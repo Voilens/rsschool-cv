@@ -15,7 +15,7 @@ ____________________________
 
 ## Training project 
 (work in progress):
-https://voilens.netlify.app/
+[https://voilens.netlify.app/](https://voilens.netlify.app/)
 
 ## English:
 A0
