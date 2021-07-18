@@ -18,7 +18,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: inherit;}
 
 body {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
-  background: linear-gradient(#2C2C2C 40%, #ffffff);
+  background: #ffffff;
 }
 
 .container {
@@ -26,6 +26,13 @@ body {
   margin: 0 auto;
   background: #ffffff;
   padding: 0 20px;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2C2C2C;
 }
 
 .header {
@@ -164,11 +171,14 @@ li span {
 }
 
 .footer {
+  background: #dbdada;
+}
+
+.footer .container{
   display: flex;
   justify-content: center;
-  padding: 20px 0;
+  padding: 25px 0;
   font-size: 24px;
-  
   background: #dbdada;
   text-transform: capitalize;
 }
@@ -179,5 +189,5 @@ li span {
 
 .footer--img {
   width: 80px;
-  margin-left: 50px;
+  margin-left: 80px;
 }
