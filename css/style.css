@@ -73,6 +73,10 @@ h1 {
   margin-right: 13px;
 }
 
+.header--socs {
+  display: flex;
+}
+
 .icon-socs {
   width: 60px;
   margin-left: 25px;
@@ -132,7 +136,7 @@ h2 {
    padding-left: 20px;
 }
 
-ul li {
+.content--list li {
   list-style: disc;
   font-size: 20px;
   font-weight: 700;
@@ -146,7 +150,7 @@ li span {
   color: #2C2C2C;
 }
 
-.content--list-uppercase {
+.content--list .content--list-uppercase {
   text-transform: uppercase;
 }
 
