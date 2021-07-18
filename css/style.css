@@ -25,15 +25,17 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   background: #ffffff;
+  padding: 0 20px;
 }
 
 .header {
   background: #2C2C2C;
+  padding: 30px 0;
 }
 
 .header--content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
   text-align: center;
@@ -80,4 +82,79 @@ h1 {
 .icon-socs {
   width: 60px;
   margin-left: 25px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content--skills {
+  width: 50%;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  padding: 35px 0 15px 0;
+}
+
+.title--icon {
+  width: 30px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #540cdb;
+  padding: 0 20px;
+  text-transform: capitalize;
+}
+
+.title--hr {
+  display: block;
+  width: 100%;
+  height: 1px;
+  padding: 0 20px;
+  background: #540cdb;
+}
+
+.content--text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+  color: #2C2C2C;
+}
+
+.content--list {
+   padding-left: 20px;
+}
+
+ul li {
+  list-style: disc;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 34px;
+  color: #540cdb;
+  text-transform: capitalize;
+}
+
+li span {
+  background-color: #ffffff;
+  color: #2C2C2C;
+}
+
+.content--list-uppercase {
+  text-transform: uppercase;
+}
+
+.content--project {
+  width: 50%;
+  padding-left: 20px;
+  font-size: 24px;
+}
+
+.content--link {
+  font-size: 24px;
+  color: #27006e;
 }
